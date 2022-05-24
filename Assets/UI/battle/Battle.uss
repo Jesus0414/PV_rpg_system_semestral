@@ -79,3 +79,6 @@
 .progressBarMana .unity-progress-bar__progress {
     background-color: rgba(59, 164, 229, 255);
 }
+
+.menu {
+}

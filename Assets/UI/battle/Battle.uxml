@@ -3,7 +3,7 @@
     <Style src="project://database/Assets/UI/GameUI.uss?fileID=7433441132597879392&amp;guid=0836b44a1ad176d4891109a0ca162ba2&amp;type=3#GameUI" />
     <ui:VisualElement name="container" class="container" style="background-color: rgba(0, 0, 0, 0);">
         <ui:VisualElement name="battlecontainer" class="battlecontainer" style="background-color: rgba(56, 56, 56, 0.58);">
-            <ui:VisualElement name="characterinfo" class="characterinfo" style="width: 33.33%;">
+            <ui:VisualElement name="characterinfo" class="characterinfo" style="width: 20%;">
                 <ui:VisualElement name="spriteContainer" class="spriteContainer">
                     <ui:VisualElement name="sprite" class="sprite" style="background-image: url(&apos;project://database/Assets/Textures/Sprite/MaggieFace.png?fileID=2800000&amp;guid=b634f4eff177c7740a1330d54274ab8e&amp;type=3#MaggieFace&apos;); width: 130px; height: 130px;" />
                 </ui:VisualElement>
@@ -18,7 +18,7 @@
                     </ui:VisualElement>
                 </ui:VisualElement>
             </ui:VisualElement>
-            <ui:VisualElement name="characterinfo" class="characterinfo" style="width: 33.33%;">
+            <ui:VisualElement name="characterinfo" class="characterinfo" style="width: 25%;">
                 <ui:VisualElement name="spriteContainer" class="spriteContainer">
                     <ui:VisualElement name="sprite" class="sprite" style="background-image: url(&apos;project://database/Assets/Textures/Sprite/LisaFace.png?fileID=2800000&amp;guid=c35a10fc8bd8f9d4c8dcdc77ec10ffca&amp;type=3#LisaFace&apos;); width: 130px; height: 130px;" />
                 </ui:VisualElement>
@@ -33,7 +33,7 @@
                     </ui:VisualElement>
                 </ui:VisualElement>
             </ui:VisualElement>
-            <ui:VisualElement name="characterinfo" class="characterinfo" style="width: 33.33%;">
+            <ui:VisualElement name="characterinfo" class="characterinfo" style="width: 25%;">
                 <ui:VisualElement name="spriteContainer" class="spriteContainer">
                     <ui:VisualElement name="sprite" class="sprite" style="background-image: url(&apos;project://database/Assets/Textures/Sprite/BartFace.png?fileID=2800000&amp;guid=2e509e69632f820408e5377cd1bec97d&amp;type=3#BartFace&apos;); width: 130px; height: 130px;" />
                 </ui:VisualElement>
@@ -47,6 +47,12 @@
                         <ui:ProgressBar title=" " low-value="20" tabindex="0" class="bar progressBarMana" />
                     </ui:VisualElement>
                 </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="menu" class="menu" style="width: 25%;">
+                <ui:Button text="Attack" display-tooltip-when-elided="true" name="attack" style="height: 25%; font-size: 40px; background-color: rgba(140, 6, 6, 0.73);" />
+                <ui:Button text="Magic" display-tooltip-when-elided="true" name="magic" style="height: 25%; font-size: 40px; background-color: rgba(0, 148, 255, 0.73);" />
+                <ui:Button text="Items" display-tooltip-when-elided="true" name="items" style="height: 25%; font-size: 40px; background-color: rgba(142, 141, 27, 0.75);" />
+                <ui:Button text="Run" display-tooltip-when-elided="true" name="run" style="height: 25%; font-size: 40px; background-color: rgba(13, 142, 5, 0.65);" />
             </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>
