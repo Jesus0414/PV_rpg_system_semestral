@@ -1,24 +1,24 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="GameUI.uss" />
-    <ui:VisualElement name="container" class="container" style="bottom: 20px;">
-        <ui:VisualElement name="partyContainer" class="partyContainer" style="height: auto; bottom: 20px;">
-            <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px;">
-                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;/Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif&apos;);" />
+    <Style src="project://database/Assets/UI/GameUI.uss?fileID=7433441132597879392&amp;guid=0836b44a1ad176d4891109a0ca162ba2&amp;type=3#GameUI" />
+    <ui:VisualElement name="container" class="container" style="bottom: -4px; left: 1556px; height: 1045px; width: 352px;">
+        <ui:VisualElement name="partyContainer" class="partyContainer" style="height: 893px; bottom: 28px; background-color: rgba(85, 153, 217, 0); width: 331px;">
+            <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px; position: absolute; left: auto; right: 11px; top: 54px;">
+                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;project://database/Assets/Textures/Sprite/MaggieFace.png?fileID=2800000&amp;guid=b634f4eff177c7740a1330d54274ab8e&amp;type=3#MaggieFace&apos;);" />
                 <ui:Label text="Maggie" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
-                <uie:ProgressBar name="health" class="health" />
-                <uie:ProgressBar name="mana" />
+                <uie:ProgressBar name="health" low-value="50" class="health progressBar" />
+                <uie:ProgressBar name="mana" low-value="50" class="mana progressBarMana" />
             </ui:VisualElement>
-            <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px;">
-                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;/Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif&apos;);" />
-                <ui:Label text="Maggie" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
-                <uie:ProgressBar name="health" class="health" />
-                <uie:ProgressBar name="mana" />
+            <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px; position: absolute; top: 416px; left: auto; right: 11px;">
+                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;project://database/Assets/Textures/Sprite/LisaFace.png?fileID=2800000&amp;guid=c35a10fc8bd8f9d4c8dcdc77ec10ffca&amp;type=3#LisaFace&apos;);" />
+                <ui:Label text="Lisa" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
+                <uie:ProgressBar name="health" low-value="90" class="health progressBar" />
+                <uie:ProgressBar name="mana" low-value="50" class="progressBarMana" />
             </ui:VisualElement>
-            <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px;">
-                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;/Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif&apos;);" />
-                <ui:Label text="Maggie" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
-                <uie:ProgressBar name="health" class="health" />
-                <uie:ProgressBar name="mana" />
+            <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px; position: absolute; top: 788px; left: auto; right: 13px;">
+                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;project://database/Assets/Textures/Sprite/BartFace.png?fileID=2800000&amp;guid=2e509e69632f820408e5377cd1bec97d&amp;type=3#BartFace&apos;); height: 102px; width: 98px;" />
+                <ui:Label text="Bart" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
+                <uie:ProgressBar name="health" low-value="35" class="health progressBar" />
+                <uie:ProgressBar name="mana" low-value="10" class="progressBarMana" />
             </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>
